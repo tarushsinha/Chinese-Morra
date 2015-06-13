@@ -13,6 +13,12 @@
 		72A23B931B2CB2F600A343C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A23B921B2CB2F600A343C5 /* Images.xcassets */; };
 		72A23B961B2CB2F600A343C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A23B941B2CB2F600A343C5 /* LaunchScreen.xib */; };
 		72A23BA21B2CB2F600A343C5 /* Game_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A23BA11B2CB2F600A343C5 /* Game_WatchTests.swift */; };
+		72A23BB41B2CB30400A343C5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A23BB31B2CB30400A343C5 /* InterfaceController.swift */; };
+		72A23BB61B2CB30400A343C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A23BB51B2CB30400A343C5 /* Images.xcassets */; };
+		72A23BBA1B2CB30400A343C5 /* Game Watch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 72A23BB91B2CB30400A343C5 /* Game Watch WatchKit App.app */; };
+		72A23BC21B2CB30400A343C5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A23BC01B2CB30400A343C5 /* Interface.storyboard */; };
+		72A23BC41B2CB30400A343C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A23BC31B2CB30400A343C5 /* Images.xcassets */; };
+		72A23BC71B2CB30400A343C5 /* Game Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 72A23BAF1B2CB30400A343C5 /* Game Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = 72A23B851B2CB2F600A343C5;
 			remoteInfo = "Game Watch";
 		};
+		72A23BBB1B2CB30400A343C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72A23B7E1B2CB2F600A343C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72A23BB81B2CB30400A343C5;
+			remoteInfo = "Game Watch WatchKit App";
+		};
+		72A23BC51B2CB30400A343C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72A23B7E1B2CB2F600A343C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72A23BAE1B2CB30400A343C5;
+			remoteInfo = "Game Watch WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72A23BCE1B2CB30400A343C5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				72A23BC71B2CB30400A343C5 /* Game Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		72A23B861B2CB2F600A343C5 /* Game Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,14 @@
 		72A23B9B1B2CB2F600A343C5 /* Game WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A23BA01B2CB2F600A343C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72A23BA11B2CB2F600A343C5 /* Game_WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_WatchTests.swift; sourceTree = "<group>"; };
+		72A23BAF1B2CB30400A343C5 /* Game Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Game Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A23BB21B2CB30400A343C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A23BB31B2CB30400A343C5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		72A23BB51B2CB30400A343C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72A23BB91B2CB30400A343C5 /* Game Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A23BBF1B2CB30400A343C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A23BC11B2CB30400A343C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		72A23BC31B2CB30400A343C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72A23BAC1B2CB30400A343C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +110,8 @@
 			children = (
 				72A23B881B2CB2F600A343C5 /* Game Watch */,
 				72A23B9E1B2CB2F600A343C5 /* Game WatchTests */,
+				72A23BB01B2CB30400A343C5 /* Game Watch WatchKit Extension */,
+				72A23BBD1B2CB30400A343C5 /* Game Watch WatchKit App */,
 				72A23B871B2CB2F600A343C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,8 @@
 			children = (
 				72A23B861B2CB2F600A343C5 /* Game Watch.app */,
 				72A23B9B1B2CB2F600A343C5 /* Game WatchTests.xctest */,
+				72A23BAF1B2CB30400A343C5 /* Game Watch WatchKit Extension.appex */,
+				72A23BB91B2CB30400A343C5 /* Game Watch WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +165,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		72A23BB01B2CB30400A343C5 /* Game Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				72A23BB31B2CB30400A343C5 /* InterfaceController.swift */,
+				72A23BB51B2CB30400A343C5 /* Images.xcassets */,
+				72A23BB11B2CB30400A343C5 /* Supporting Files */,
+			);
+			path = "Game Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		72A23BB11B2CB30400A343C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72A23BB21B2CB30400A343C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72A23BBD1B2CB30400A343C5 /* Game Watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				72A23BC01B2CB30400A343C5 /* Interface.storyboard */,
+				72A23BC31B2CB30400A343C5 /* Images.xcassets */,
+				72A23BBE1B2CB30400A343C5 /* Supporting Files */,
+			);
+			path = "Game Watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		72A23BBE1B2CB30400A343C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72A23BBF1B2CB30400A343C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +211,12 @@
 				72A23B821B2CB2F600A343C5 /* Sources */,
 				72A23B831B2CB2F600A343C5 /* Frameworks */,
 				72A23B841B2CB2F600A343C5 /* Resources */,
+				72A23BCE1B2CB30400A343C5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				72A23BC61B2CB30400A343C5 /* PBXTargetDependency */,
 			);
 			name = "Game Watch";
 			productName = "Game Watch";
@@ -150,6 +241,39 @@
 			productReference = 72A23B9B1B2CB2F600A343C5 /* Game WatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		72A23BAE1B2CB30400A343C5 /* Game Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A23BCB1B2CB30400A343C5 /* Build configuration list for PBXNativeTarget "Game Watch WatchKit Extension" */;
+			buildPhases = (
+				72A23BAB1B2CB30400A343C5 /* Sources */,
+				72A23BAC1B2CB30400A343C5 /* Frameworks */,
+				72A23BAD1B2CB30400A343C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72A23BBC1B2CB30400A343C5 /* PBXTargetDependency */,
+			);
+			name = "Game Watch WatchKit Extension";
+			productName = "Game Watch WatchKit Extension";
+			productReference = 72A23BAF1B2CB30400A343C5 /* Game Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		72A23BB81B2CB30400A343C5 /* Game Watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A23BC81B2CB30400A343C5 /* Build configuration list for PBXNativeTarget "Game Watch WatchKit App" */;
+			buildPhases = (
+				72A23BB71B2CB30400A343C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game Watch WatchKit App";
+			productName = "Game Watch WatchKit App";
+			productReference = 72A23BB91B2CB30400A343C5 /* Game Watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +289,12 @@
 					72A23B9A1B2CB2F600A343C5 = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = 72A23B851B2CB2F600A343C5;
+					};
+					72A23BAE1B2CB30400A343C5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					72A23BB81B2CB30400A343C5 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
@@ -183,6 +313,8 @@
 			targets = (
 				72A23B851B2CB2F600A343C5 /* Game Watch */,
 				72A23B9A1B2CB2F600A343C5 /* Game WatchTests */,
+				72A23BAE1B2CB30400A343C5 /* Game Watch WatchKit Extension */,
+				72A23BB81B2CB30400A343C5 /* Game Watch WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +334,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A23BAD1B2CB30400A343C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A23BB61B2CB30400A343C5 /* Images.xcassets in Resources */,
+				72A23BBA1B2CB30400A343C5 /* Game Watch WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A23BB71B2CB30400A343C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A23BC21B2CB30400A343C5 /* Interface.storyboard in Resources */,
+				72A23BC41B2CB30400A343C5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72A23BAB1B2CB30400A343C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A23BB41B2CB30400A343C5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +390,16 @@
 			isa = PBXTargetDependency;
 			target = 72A23B851B2CB2F600A343C5 /* Game Watch */;
 			targetProxy = 72A23B9C1B2CB2F600A343C5 /* PBXContainerItemProxy */;
+		};
+		72A23BBC1B2CB30400A343C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72A23BB81B2CB30400A343C5 /* Game Watch WatchKit App */;
+			targetProxy = 72A23BBB1B2CB30400A343C5 /* PBXContainerItemProxy */;
+		};
+		72A23BC61B2CB30400A343C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72A23BAE1B2CB30400A343C5 /* Game Watch WatchKit Extension */;
+			targetProxy = 72A23BC51B2CB30400A343C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +418,14 @@
 				72A23B951B2CB2F600A343C5 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		72A23BC01B2CB30400A343C5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A23BC11B2CB30400A343C5 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -392,6 +568,62 @@
 			};
 			name = Release;
 		};
+		72A23BC91B2CB30400A343C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Game_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Game Watch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		72A23BCA1B2CB30400A343C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Game_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Game Watch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		72A23BCC1B2CB30400A343C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Game Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		72A23BCD1B2CB30400A343C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Game Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -417,6 +649,22 @@
 			buildConfigurations = (
 				72A23BA91B2CB2F600A343C5 /* Debug */,
 				72A23BAA1B2CB2F600A343C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72A23BC81B2CB30400A343C5 /* Build configuration list for PBXNativeTarget "Game Watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A23BC91B2CB30400A343C5 /* Debug */,
+				72A23BCA1B2CB30400A343C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72A23BCB1B2CB30400A343C5 /* Build configuration list for PBXNativeTarget "Game Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A23BCC1B2CB30400A343C5 /* Debug */,
+				72A23BCD1B2CB30400A343C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

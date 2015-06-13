@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Game_Watch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Your Guess is 3" id="O5k-N1-lSJ"/>
+                        <slider width="1" alignment="left" value="0.59999999999999998" steps="5" id="83t-GK-MaO">
+                            <connections>
+                                <action selector="updateGuess:" destination="AgC-eL-Hgc" id="ofs-Y7-mFg"/>
+                            </connections>
+                        </slider>
+                        <button width="1" alignment="left" verticalAlignment="center" title="Guess" id="ypm-4Q-8dw">
+                            <connections>
+                                <action selector="startGuess" destination="AgC-eL-Hgc" id="Ag1-JE-Mrd"/>
+                            </connections>
+                        </button>
+                        <label alignment="center" verticalAlignment="bottom" text="Press Guess to Play" minimumScaleFactor="0.5" id="bLJ-pl-x3L"/>
+                    </items>
+                    <connections>
+                        <outlet property="guessLabel" destination="O5k-N1-lSJ" id="QXk-2Q-SuC"/>
+                        <outlet property="guessSlider" destination="83t-GK-MaO" id="NWb-CK-x8K"/>
+                        <outlet property="resultLabel" destination="bLJ-pl-x3L" id="h6I-Wv-hwA"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="461" y="362"/>
+        </scene>
+    </scenes>
+</document>

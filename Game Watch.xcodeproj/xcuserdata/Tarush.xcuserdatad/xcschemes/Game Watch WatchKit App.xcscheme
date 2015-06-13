@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "72A23BB81B2CB30400A343C5"
+               BuildableName = "Game Watch WatchKit App.app"
+               BlueprintName = "Game Watch WatchKit App"
+               ReferencedContainer = "container:Game Watch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "72A23B851B2CB2F600A343C5"
                BuildableName = "Game Watch.app"
                BlueprintName = "Game Watch"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "72A23B9A1B2CB2F600A343C5"
-               BuildableName = "Game WatchTests.xctest"
-               BlueprintName = "Game WatchTests"
+               BlueprintIdentifier = "72A23BAE1B2CB30400A343C5"
+               BuildableName = "Game Watch WatchKit Extension.appex"
+               BlueprintName = "Game Watch WatchKit Extension"
                ReferencedContainer = "container:Game Watch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "72A23B9A1B2CB2F600A343C5"
-               BuildableName = "Game WatchTests.xctest"
-               BlueprintName = "Game WatchTests"
-               ReferencedContainer = "container:Game Watch.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "72A23B851B2CB2F600A343C5"
-            BuildableName = "Game Watch.app"
-            BlueprintName = "Game Watch"
+            BlueprintIdentifier = "72A23BB81B2CB30400A343C5"
+            BuildableName = "Game Watch WatchKit App.app"
+            BlueprintName = "Game Watch WatchKit App"
             ReferencedContainer = "container:Game Watch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Game Watch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "72A23B851B2CB2F600A343C5"
-            BuildableName = "Game Watch.app"
-            BlueprintName = "Game Watch"
+            BlueprintIdentifier = "72A23BB81B2CB30400A343C5"
+            BuildableName = "Game Watch WatchKit App.app"
+            BlueprintName = "Game Watch WatchKit App"
             ReferencedContainer = "container:Game Watch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "72A23BB81B2CB30400A343C5"
+            BuildableName = "Game Watch WatchKit App.app"
+            BlueprintName = "Game Watch WatchKit App"
+            ReferencedContainer = "container:Game Watch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Game Watch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "72A23B851B2CB2F600A343C5"
-            BuildableName = "Game Watch.app"
-            BlueprintName = "Game Watch"
+            BlueprintIdentifier = "72A23BB81B2CB30400A343C5"
+            BuildableName = "Game Watch WatchKit App.app"
+            BlueprintName = "Game Watch WatchKit App"
             ReferencedContainer = "container:Game Watch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "72A23BB81B2CB30400A343C5"
+            BuildableName = "Game Watch WatchKit App.app"
+            BlueprintName = "Game Watch WatchKit App"
+            ReferencedContainer = "container:Game Watch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
